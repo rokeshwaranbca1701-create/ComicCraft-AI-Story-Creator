@@ -1,0 +1,18 @@
+1. Functional Requirements
+ Prompt Input Interface: The system must provide a user-friendly input field where users can enter a story concept, genre, characters, or theme.
+ Gemini Model Integration: The application must securely connect with Google Gemini APIs to process user prompts and generate creative responses.
+ Structured Script Generation: The output must be organized into clear comic book structures, including page numbers, panel layouts, visual descriptions, and character dialogues.
+ Export Functionality: Users should be able to view, copy, or download the generated comic script for further production.
+2. Non-Functional Requirements
+ Performance: The AI generation response time should be optimized to deliver script outlines within a few seconds.
+ Usability: The user interface must be intuitive, clean, and responsive for seamless navigation.
+ Reliability: Proper error handling must be implemented to manage API rate limits or connection failures gracefully.
+ Security: API keys for the Gemini models must be stored securely using environment variables (⁠.env⁠) rather than hardcoded into the source code.
+3. Hardware Requirements
+ Developer Workstation: PC or Laptop with minimum 4GB RAM, stable internet connection, and a modern web browser.
+ Server/Deployment (Optional): Cloud hosting environment (such as Streamlit Cloud, Render, or Vercel) with internet access to call external APIs.
+4. Software & Technology Requirements
+ Programming Language: Python 3.8+
+ AI/ML SDK: Google GenAI SDK (⁠google-generativeai⁠)
+ Framework (UI/App): Streamlit or Flask (depending on your build)
+ Version Control: Git and GitHub for phase-wise repository management
