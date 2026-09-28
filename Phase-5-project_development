@@ -1,0 +1,12 @@
+1. Development Environment Setup
+ Python Installation: Installed Python 3.8+ on the local development machine.
+ Virtual Environment: Created and activated a virtual environment (⁠venv⁠) to manage project dependencies cleanly.
+ Library Installation: Installed required packages including the Google GenAI SDK (⁠google-generativeai⁠) and UI framework packages (⁠streamlit⁠).
+2. Core Implementation & Code Structure
+ API Configuration: Configured the Google Gemini API key securely using environment variables.
+ Prompt Engineering Logic: Developed specialized prompt templates to instruct the Gemini model to output structured comic book elements (title, character outlines, page layouts, and panel dialogues).
+ Application Script: Built the main application logic to handle user inputs, send requests to the Gemini model, and parse the returned text response into readable comic format blocks.
+3. Source Code Overview
+(You can place your actual Python source code files like ⁠app.py⁠ or ⁠main.py⁠ inside this folder when you are ready, or summarize the implementation details here.)
+ ⁠app.py⁠: Contains the main user interface layout and Gemini API call handlers.
+ ⁠.env.example⁠: Template file for securely setting up the Gemini API key
